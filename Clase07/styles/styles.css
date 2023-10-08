@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: #15151d;
+}
+
+.container{
+    background-color: aqua;
+    display: grid;
+    height: 100vh; /*Con esto le damos la altura de la pantalla para dejar el footer abajo */
+    grid-template-rows: 20% auto 15%;
+}
+
+header{
+    background-color: bisque;
+}
+
+main{
+    background-color: blue;
+}
+
+footer{
+    background-color: brown;
+}
+
+@media (max-width: 480px){
+    main{
+        background-color: chartreuse;
+    }
+}

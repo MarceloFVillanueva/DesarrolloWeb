@@ -29,14 +29,6 @@ display: avisa al padre que tipo es / flex (flexibles, en una dirección), grid 
     
     * Comandos útiles:
 
-        unidades básicas:
-            - px: pixeles / medida fija
-            - fr: fracción / del total del padre, se divide la columnas indicadas y se fracciona entre ellas la cant indicada. 3fr 1fr (2 columnas, la primera el triple de la segunda) 
-            - %: porcentaje / del total del padre, un porcentaje de ese tamañano.
-            - auto: automático / rellena el tamaño al tamaño total no indicado del padre
-            - vh: view high / ancho de la pantalla
-            - vw: view with / alto de la pantalla
-
         Propiedades del padre:
             - grid-template-columns: tamaño de cada  columna
             - grid-template-rows: tamaño de cada fila
@@ -50,3 +42,30 @@ display: avisa al padre que tipo es / flex (flexibles, en una dirección), grid 
             - justify-self: alínea específicamente la celda de forma horizontal / start, end, center, stretch
             - align-self: alínea especificamente la celda de forma vertical / star, end, center, stretch
             - grid-area: le asigna un nombre para manipularlo en grid-template-areas
+
+    * Datos extras:
+        - px: pixeles / medida fija
+        - fr: fracción / del total del padre, se divide la columnas indicadas y se fracciona entre ellas la cant indicada. 3fr 1fr (2 columnas, la primera el triple de la segunda) 
+        - %: porcentaje / del total del padre, un porcentaje de ese tamañano.
+        - auto: automático / rellena el tamaño al tamaño total no indicado del padre
+        - vh: view high / ancho de la pantalla
+        - vw: view with / alto de la pantalla
+
+# Clase 7 - RESPONSIVE, MEDIA QUERies
+
+    * Media Queries: Es un condicional, mayormente se lo usa para condicionar con el tamaño de ancho de la pantalla, es la apertura a modelo responsive.
+    Forma de usar
+    
+    ***************** CSS ***********************
+    .miestilo{
+        background-color: blue;
+    }
+
+    @media (max-width: 480px){
+        .background-color: brown;
+    }
+    *********************************************
+
+    * Datos extras:
+        - display: none; elimina la etiqueta
+        - 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class = "bar-log">
+            <img src="../images/usuario-de-perfil.png" alt="img usuario-de-perfil">
+            <a href="./crear_usuario.html">Crear cuenta</a>
+            <a href="./ingresar-usuario.html">Iniciar sesión</a>
+        </div>
+        <div class="bar-menu-izquierda">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="logo">
+            </a>
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./nosotros.html">NOSOTROS</a></li>
+                <li><a href="./como_comprar.html">CÓMO COMPRAR</a></li>
+            </ul>
+        </div>
+        <div class = "bar-menu-derecha">
+            <a href="./busqueda.html">
+                <img src="../images/lupa.png" alt="logo">
+            </a>
+            <a href="carrito_de_compra.html">
+                <img src="../images/carrito-de-compras.png" alt="logo">
+            </a>
+        </div>
+    </header>
+    <main>
+
+        <!-- formulario para el ingreso del usuario -->
+        <div class = "formulario-usuario">
+            <h1 id = "inicio-de-pag">INGRESAR</h1>
+            <img src="../images/logo.png" alt="icon-logo">
+            <form action="">
+                <label for="usuario">Usuario:</label>
+                <input type="text" placeholder="Ingrese nombre de usuario" name="usuario">
+                <br>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" placeholder="Ingrese contraseña" required name="contraseña">
+                <br>
+                <input type="reset" value="limpiar campos">
+                <input type="submit" value="ingresar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="box-redes">
+            <h3>REDES</h3>
+            <a href="./nosotros.html#info-contacto"><img src="../images/facebook.png" alt="icon-facebook"></a>
+            <a href="./nosotros.html#info-contacto"><img src="../images/instagram.png" alt="icon-instagram"></a>
+        </div>
+        <div class="box-formas-de-envio">
+            <h3>FORMAS DE ENVÍO</h3>
+            <a href="./nosotros.html#info-sucursales"><img src="../images/tienda.png" alt="icon-store"></a>
+            <a href="./nosotros.html#info-costos-de-envio"><img src="../images/furgoneta-de-reparto.png" alt="icon-delivery"></a>
+        </div>
+        <div class="box-contacto">
+            <h3>CONTACTANOS</h3>
+            <li>
+                <a href="./nosotros.html#info-contacto">
+                    <img src="../images/telefono.png" alt="icon-phone">
+                    <span>11-5555-5555</span>
+                </a>
+            </li>
+            <li>
+                <a href="./nosotros.html#info-contacto">
+                    <img src="../images/correo-electronico.png" alt="icon-email">
+                    <span>correofalso@123.com</span>
+                </a>
+            </li>
+            <li>
+                <a href="./nosotros.html#info-sucursales">
+                    <img src="../images/ubicacion.png" alt="icon-map">
+                    <span>calle falsa 123</span>
+                </a>
+            </li>
+        </div>
+        <a href="#inicio-de-pag"><img src="../images/flecha-hacia-arriba.png" alt="icon-up"></a>
+        <a href="#"><img src="../images/whatsapp.png" alt="icon-whatsapp"></a>
+    </footer>
+</body>
+</html>

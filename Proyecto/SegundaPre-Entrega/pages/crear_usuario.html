@@ -5,35 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear usuario</title>
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/icons/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class = "bar-log">
-            <img src="../images/usuario-de-perfil.png" alt="img usuario-de-perfil">
-            <a href="./crear_usuario.html">Crear cuenta</a>
-            <a href="./ingresar-usuario.html">Iniciar sesión</a>
+        <!-- Usuario -->
+        <div class="bar-log">
+            <!-- Logo de usuario -->
+            <img class="icons" src="../images/icons/usuario-de-perfil.png" alt="Img usuario">
+            <!-- Menú de usuario -->
+            <nav class="menu-user">
+                <ul>
+                    <li><a href="../pages/crear_usuario.html">Crear cuenta</a></li>
+                    <li><a href="../pages/ingresar-usuario.html">Iniciar sesión</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="bar-menu-izquierda">
-            <a href="../index.html">
-                <img src="../images/logo.png" alt="logo">
+        <!-- Navegador de páginas -->
+        <div class="bar-pages">
+            <!-- Logo -->
+            <a href="#">
+                <img class="logo" src="../images/icons/logo.png" alt="Logo principal">
             </a>
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./nosotros.html">NOSOTROS</a></li>
-                <li><a href="./como_comprar.html">CÓMO COMPRAR</a></li>
-            </ul>
-        </div>
-        <div class = "bar-menu-derecha">
-            <a href="./busqueda.html">
-                <img src="../images/lupa.png" alt="logo">
-            </a>
-            <a href="carrito_de_compra.html">
-                <img src="../images/carrito-de-compras.png" alt="logo">
-            </a>
+            <!-- Menú navegable -->
+            <nav class="menu-pages">
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="../pages/nosotros.html">NOSOTROS</a></li>
+                    <li><a href="../pages/como_comprar.html">CÓMO COMPRAR</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>

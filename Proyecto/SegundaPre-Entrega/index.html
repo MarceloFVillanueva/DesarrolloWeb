@@ -5,34 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silver Wolf</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/icons/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <!-- barra para el inicio de sessión -->
-        <div class = "bar-log">
-            <img src="./images/usuario-de-perfil.png" alt="img usuario-de-perfil">
-            <a href="./pages/crear_usuario.html">Crear cuenta</a>
-            <a href="./pages/ingresar-usuario.html">Iniciar sesión</a>
+        <!-- Usuario -->
+        <div class="bar-log">
+            <!-- Logo de usuario -->
+            <img class="icons" src="./images/icons/usuario-de-perfil.png" alt="Img usuario">
+            <!-- Menú de usuario -->
+            <nav class="menu-user">
+                <ul>
+                    <li><a href="./pages/crear_usuario.html">Crear cuenta</a></li>
+                    <li><a href="./pages/ingresar-usuario.html">Iniciar sesión</a></li>
+                </ul>
+            </nav>
         </div>
-        <!-- barra de navegación de páginas, busqueda y carrito -->
-        <div class="bar-menu-derecha">
-            <a href="index.html">
-                <img src="./images/logo.png" alt="logo">
+        <!-- Navegador de páginas -->
+        <div class="bar-pages">
+            <!-- Logo -->
+            <a href="#">
+                <img class="logo" src="./images/icons/logo.png" alt="Logo principal">
             </a>
-            <ul>
-                <li><a href="./index.html">INICIO</a></li>
-                <li><a href="./pages/nosotros.html">NOSOTROS</a></li>
-                <li><a href="./pages/como_comprar.html">CÓMO COMPRAR</a></li>
-            </ul>
-        </div>
-        <div class = "bar-menu-izquierda">
-            <a href="./pages/busqueda.html">
-                <img src="./images/lupa.png" alt="logo">
-            </a>
-            <a href="./pages/carrito_de_compra.html">
-                <img src="./images/carrito-de-compras.png" alt="logo">
-            </a>
+            <!-- Menú navegable -->
+            <nav class="menu-pages">
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="./pages/nosotros.html">NOSOTROS</a></li>
+                    <li><a href="./pages/como_comprar.html">CÓMO COMPRAR</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main class = "box-productos">

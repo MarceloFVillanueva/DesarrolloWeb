@@ -68,4 +68,10 @@ display: avisa al padre que tipo es / flex (flexibles, en una dirección), grid 
 
     * Datos extras:
         - display: none; elimina la etiqueta
-        - 
+        - Breakpoints de mediaQueries:
+            - Móvil pequeño: 360 x 640 px.
+            - Móvil medio: 375 x 667 px.
+            - Smartphone grande: 720 x 1280 px.
+            - Ordenador portátil medio: 1366 x 768 px.
+            - Ordenador de escritorio medio: 1440 x 900 px.
+            - PC de escritorio grande: 1920 x 1080 px.

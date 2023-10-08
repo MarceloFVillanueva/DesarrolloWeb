@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* CUERPO PRINCIPAL */
+
+.box-products{
+    height: 100vh;
+    background-color: darkmagenta;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 175px;
+    height: 175px;
+    margin: 5px;
+    display: flex;
+}
+
+.product-1{
+    background-color: aquamarine;
+    align-items: flex-start;
+}
+
+.product-2{
+    background-color: blue;
+    justify-content: center;
+}
+
+.product-3{
+    background-color: blueviolet;
+}
+
+.product-4{
+    background-color: brown;
+    order: -4;
+}
+
+.product-5{
+    background-color: burlywood;
+    order: 2;
+}
+
+.product-6{
+    background-color: cadetblue;
+}
+
+.product-7{
+    background-color: chartreuse;
+}
+
+.product-8{
+    background-color: chocolate;
+    order: -1;
+}
+
+.product-9{
+    background-color: cornflowerblue;
+}
+
+.product-10{
+    background-color: darkblue;
+}
+
+.product-11{
+    background-color: darkgoldenrod;
+}
+
+.product-12{
+    background-color: darkred;
+}
+
+.product-13{
+    background-color: darkgreen;
+}
+
+.product-14{
+    background-color: darkgray;
+}
+
+.product-15{
+    background-color: darkseagreen;
+}

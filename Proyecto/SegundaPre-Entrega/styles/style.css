@@ -173,3 +173,15 @@ h1{
 .nav-shop li{
     padding: 10px;
 }
+
+/* Cuerpo principal como_comprar */
+
+.info-shop{
+    display: flex;
+    justify-content: center;
+}
+
+.info-shop p{
+    width: 80%;
+    margin: 30px;
+}

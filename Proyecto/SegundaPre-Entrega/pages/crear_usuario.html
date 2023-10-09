@@ -50,12 +50,13 @@
             </div>
         </div>
     </header>
-    <main>
-
-        <!-- formulario para la creación y alta de usuario -->
-        <div class = "formulario-usuario">
+    <main class="main">
+        <div class = "form-user">
+            <!-- Título principal -->
             <h1 id = "principal-tittle">CREAR USUARIO</h1>
-            <img src="../images/logo.png" alt="icon-logo">
+            <!-- Logo -->
+            <img src="../images/icons/logo.png" alt="icon-logo">
+            <!-- Formulario para la creación y alta de usuario -->
             <form action="">
                 <label for="nombre">Nombre de usuario:</label>
                 <input type="text" placeholder="Ingrese nombre de usuario" name="nombre">
@@ -69,7 +70,7 @@
                 <label for="confirmar-contraseña">Confirmar contraseña:</label>
                 <input type="password" placeholder="Repita contraseña" required name="confirmar-contraseña">
                 <br>
-                <input type="reset" value="limpiar campos">
+                <input class="button-sing" type="reset" value="limpiar campos">
                 <input type="submit" value="crear">
             </form>
         </div>

@@ -185,3 +185,35 @@ h1{
     width: 80%;
     margin: 30px;
 }
+
+/* Cuerpo principal crear_usuario */
+
+.form-user{
+    margin: 15px;
+    padding: 20px;
+    width: 400px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #96c5f758;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-user img{
+    width: 200px;
+    height: 200px;
+}
+
+.form-user form{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}

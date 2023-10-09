@@ -33,7 +33,6 @@ li{
     background-color: #61DBFF;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .bar-pages ul{
@@ -42,4 +41,50 @@ li{
 
 .bar-pages li{
     margin: 10px;
+}
+
+.bar-pages-left{
+    display: flex;
+    align-items: center;
+}
+
+.bar-pages-rigth{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bar-pages-rigth img{
+    margin: 10px;
+}
+
+/* Pie de página */
+
+footer{
+    background-color: #61DBFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left, .footer-rigth{
+    display: flex;
+    margin: 10px;
+}
+
+.social-networks, .shipping-forms, .contact{
+    margin: 10px;
+}
+
+.contact a{
+    display: flex;
+    align-items: center;
+}
+
+.contact span{
+    margin: 5px;
+}
+
+.social-networks img, .shipping-forms img, .extra-icon{
+    margin: 5px;
 }

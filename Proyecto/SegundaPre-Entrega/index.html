@@ -23,18 +23,28 @@
         </div>
         <!-- Navegador de páginas -->
         <div class="bar-pages">
-            <!-- Logo -->
-            <a href="#">
-                <img class="logo" src="./images/icons/logo.png" alt="Logo principal">
-            </a>
-            <!-- Menú navegable -->
-            <nav class="menu-pages">
-                <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="./pages/nosotros.html">NOSOTROS</a></li>
-                    <li><a href="./pages/como_comprar.html">CÓMO COMPRAR</a></li>
-                </ul>
-            </nav>
+            <div class="bar-pages-left">
+                <!-- Logo -->
+                <a href="#">
+                    <img class="logo" src="./images/icons/logo.png" alt="Logo principal">
+                </a>
+                <!-- Menú navegable -->
+                <nav class="menu-pages">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="./pages/nosotros.html">NOSOTROS</a></li>
+                        <li><a href="./pages/como_comprar.html">CÓMO COMPRAR</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bar-pages-rigth">
+                <a href="./pages/busqueda.html">
+                    <img src="./images/icons/lupa.png" alt="magnifying-glass-icon">
+                </a>
+                <a href="./pages/carrito_de_compra.html">
+                    <img src="./images/icons/carrito-de-compras.png" alt="shopping-cart-icon">
+                </a>
+            </div>
         </div>
     </header>
     <main class = "box-productos">
@@ -147,40 +157,60 @@
         </div>
     </main>
     <footer>
-        <!-- menu de y accesos en el pie de página -->
-        <div class="box-redes">
-            <h3>REDES</h3>
-            <a href="./pages/nosotros.html#info-contacto"><img src="./images/facebook.png" alt="icon-facebook"></a>
-            <a href="./pages/nosotros.html#info-contacto"><img src="./images/instagram.png" alt="icon-instagram"></a>
-        </div>
-        <div class="box-formas-de-envio">
-            <h3>FORMAS DE ENVÍO</h3>
-            <a href="./pages/nosotros.html#info-sucursales"><img src="./images/tienda.png" alt="icon-store"></a>
-            <a href="./pages/nosotros.html#info-costos-de-envio"><img src="./images/furgoneta-de-reparto.png" alt="icon-delivery"></a>
-        </div>
-        <div class="box-contacto">
-            <h3>CONTACTANOS</h3>
-            <li>
-                <a href="./pages/nosotros.html#info-contacto">
-                    <img src="./images/telefono.png" alt="icon-phone">
-                    <span>11-5555-5555</span>
+        <div class="footer-left">
+            <!-- Redes sociales -->
+            <div class="social-networks">
+                <h3>REDES</h3>
+                <a href="./pages/nosotros.html#info-contact">
+                    <img src="./images/icons/facebook.png" alt="facebook-icon">
                 </a>
-            </li>
-            <li>
-                <a href="./pages/nosotros.html#info-contacto">
-                    <img src="./images/correo-electronico.png" alt="icon-email">
-                    <span>correofalso@123.com</span>
+                <a href="./pages/nosotros.html#info-contact">
+                    <img src="./images/icons/instagram.png" alt="instagram-icon">
                 </a>
-            </li>
-            <li>
-                <a href="./pages/nosotros.html#info-sucursales">
-                    <img src="./images/ubicacion.png" alt="icon-map">
-                    <span>calle falsa 123</span>
+            </div>
+            <!-- Formas de entrega -->
+            <div class="shipping-forms">
+                <h3>FORMAS DE ENVÍO</h3>
+                <a href="./pages/nosotros.html#info-store">
+                    <img src="./images/icons/tienda.png" alt="store-icon">
                 </a>
-            </li>
+                <a href="./pages/nosotros.html#info-store">
+                    <img src="./images/icons/furgoneta-de-reparto.png" alt="delivery-icon">
+                </a>
+            </div>            
         </div>
-        <a href="#inicio-de-pag"><img src="./images/flecha-hacia-arriba.png" alt="icon-up"></a>
-        <a href="#"><img src="./images/whatsapp.png" alt="icon-whatsapp"></a>
+        <div class="footer-rigth">
+            <!-- Tarjeta de contacto -->
+            <div class="contact">
+                <h3>CONTACTANOS</h3>
+                <ul>
+                    <li>
+                        <a href="./pages/nosotros.html#info-contact">
+                            <img src="./images/icons/telefono.png" alt="phone-icon">
+                            <span>11-5555-5555</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/nosotros.html#info-contact">
+                            <img src="./images/icons/correo-electronico.png" alt="email-icon">
+                            <span>correofalso@123.com</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/nosotros.html#info-store">
+                            <img src="./images/icons/ubicacion.png" alt="map-icon">
+                            <span>correofalso@123.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#principal-tittle">
+                <img class="extra-icon" src="./images/icons/flecha-hacia-arriba.png" alt="up-icon">
+            </a>
+            <a href="#">
+                <img class="extra-icon" src="./images/icons/whatsapp.png" alt="whatsapp-icon">
+            </a>
+        </div>
     </footer>
 </body>
 </html>

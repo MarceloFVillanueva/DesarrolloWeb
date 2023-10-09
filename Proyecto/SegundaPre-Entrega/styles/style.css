@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #E6F4F1;
+}
+
 li{
     list-style-type: none;
 }
@@ -139,3 +143,33 @@ h1{
     margin: 5px;
 }
 
+/* Cuerpo principal carrito_de_compra */
+
+.box-info-products{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-info-product{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-product{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-shop{
+    text-align: end;
+    margin: 30px;
+}
+
+.nav-shop li{
+    padding: 10px;
+}

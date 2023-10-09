@@ -186,7 +186,7 @@ h1{
     margin: 30px;
 }
 
-/* Cuerpo principal crear_usuario */
+/* Cuerpo principal crear_usuario e ingresar_usuario*/
 
 .form-user{
     margin: 15px;
@@ -216,4 +216,10 @@ h1{
 .main{
     display: flex;
     justify-content: center;
+}
+
+.button-user{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
 }

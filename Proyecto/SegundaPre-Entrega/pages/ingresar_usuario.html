@@ -20,7 +20,7 @@
             <nav class="menu-user">
                 <ul>
                     <li><a href="./crear_usuario.html">Crear cuenta</a></li>
-                    <li><a href="./ingresar-usuario.html">Iniciar sesión</a></li>
+                    <li><a href="./ingresar_usuario.html">Iniciar sesión</a></li>
                 </ul>
             </nav>
         </div>
@@ -50,12 +50,11 @@
             </div>
         </div>
     </header>
-    <main>
-
+    <main class="main">
         <!-- formulario para el ingreso del usuario -->
-        <div class = "formulario-usuario">
+        <div class = "form-user">
             <h1 id = "principal-tittle">INGRESAR</h1>
-            <img src="../images/logo.png" alt="icon-logo">
+            <img src="../images/icons/logo.png" alt="icon-logo">
             <form action="">
                 <label for="usuario">Usuario:</label>
                 <input type="text" placeholder="Ingrese nombre de usuario" name="usuario">
@@ -63,8 +62,8 @@
                 <label for="contraseña">Contraseña:</label>
                 <input type="password" placeholder="Ingrese contraseña" required name="contraseña">
                 <br>
-                <input type="reset" value="limpiar campos">
-                <input type="submit" value="ingresar">
+                <input class="button-user" type="reset" value="limpiar campos">
+                <input class="button-user" type="submit" value="ingresar">
             </form>
         </div>
     </main>

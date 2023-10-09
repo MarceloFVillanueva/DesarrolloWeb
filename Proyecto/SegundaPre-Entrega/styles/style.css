@@ -10,6 +10,16 @@ li{
     list-style-type: none;
 }
 
+p{
+    padding: 5px;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 /* Menu usuario */
 
 .bar-log{
@@ -87,4 +97,28 @@ footer{
 
 .social-networks img, .shipping-forms img, .extra-icon{
     margin: 5px;
+}
+
+/* Cuerpo principal index */
+
+.box-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+.box{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000000;
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
 }

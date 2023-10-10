@@ -22,6 +22,11 @@ display: avisa al padre que tipo es / flex (flexibles, en una dirección), grid 
             - align-items: alínea los elementos en vertical / flex-start, center, flex-end, stretch, baseline
             - align-content: lo mismo que aling-items sólo que se aplica cuando hay varias filas / stretch, flex-start, center, flex-end, space-between, space-around, space-evenly
             - order: le asigna un valor de ubicación al hijo. Todos los hijos comienzan con un orden de 0, si se pone a un hijo -1 pasa a una posición a la izquierda de los hijos 0
+    
+    * Datos extras:
+        - list-style-type: none; elimina el punto en las listas
+        - text-decoration: none; elimina el subrayado de las href
+        - object-fit: contain; mantiene la imagen sin deformarla
 
 # Clase 6 - Grid
 

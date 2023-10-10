@@ -24,6 +24,10 @@ button{
     border-radius: 5px;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Menu usuario */
 
 .bar-log{
@@ -222,4 +226,107 @@ h1{
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
+}
+
+/* Cuerpo principal nosotros */
+
+.nosotros{
+    display: flex;
+}
+
+.nosotros p{
+    width: 800px;
+    text-align: justify;
+}
+
+.nav-info-nosotros{
+    width: 20%;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+.nav-info-nosotros li{
+    margin: 10px;
+    font-size: large;
+}
+
+.nav-info-nosotros li:hover{
+    margin: 10px;
+    font-size: larger;
+}
+
+.info-nosotros{
+    width: 80%;
+    padding-right: 80px;
+    margin: 10px;
+}
+
+.nosotros{
+    margin: 10px;
+    display: flex;
+}
+
+.info-contact {
+    margin: 20px;
+}
+
+.info-delivery, .info-payment-methods, .info-store{
+    margin-top: 40px;
+}
+
+.info-contact li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.info-contact a{
+    display: flex;
+    align-items: center;
+}
+
+.info-contact span{
+    margin-left: 5px;
+}
+
+.info-contact img{
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.formulario-consultas{
+    margin-top: 20px;
+    width: 700px;
+}
+
+.label-form{
+    margin: 10px 0px 10px 25px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-inputs{
+    width: 80%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons input{
+    margin: 10px 0px 10px 10px;
+    width: 150px;
+}
+
+.info-store iframe{
+    margin-top: 20px;
+    padding: 10px;
 }

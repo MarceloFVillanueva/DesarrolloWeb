@@ -39,17 +39,7 @@ p{
 .grid-container{
     height: 100vh;
     display: grid;
-    grid-template-rows: 15% auto 15%;
-}
-
-@media(max-width:650px){
-    .occult{
-        display: none;
-    }
-    .footer-left{
-        display: flex;
-        flex-direction: column;
-    }
+    grid-template-rows: 20% auto 15%;
 }
 
 /* HEADER */
@@ -70,13 +60,7 @@ p{
 .menu-user{
     display: flex;
     align-items: center;
-}
-
-@media (max-width: 650px) {
-    .nav-log{
-        display: flex;
-        justify-content: space-between;
-    }
+    margin-bottom: 0px;
 }
 
 /* HEADER - BARRA DE PAGINAS */
@@ -89,25 +73,6 @@ p{
 
 .navbar{
     background-color: #61DBFF;
-}
-
-/* MAIN CON BOOTSTRAP */
-
-.card{
-    margin: 20px;
-}
-
-.card .btn{
-    width: 90%;
-}
-
-.btn-toolbar{
-    display: flex;
-    justify-content: center;
-}
-
-.toast-header{
-    background-color: rgba(0, 255, 255, 0.413);
 }
 
 /* FOOTER */
@@ -139,3 +104,56 @@ p{
 .social-networks img, .shipping-forms img, .extra-icon{
     margin: 5px;
 }
+
+/* MAIN INDEX CON BOOTSTRAP */
+
+.card{
+    margin: 20px;
+}
+
+.card .btn{
+    width: 90%;
+}
+
+.btn-toolbar{
+    display: flex;
+    justify-content: center;
+}
+
+.toast-header{
+    background-color: rgba(0, 255, 255, 0.413);
+}
+
+/* MAIN BUSQUEDA CON BOOTSTRAP */
+.form-control{
+    width: 80vw;
+}
+
+.main-busqueda{
+    margin-top: 5px;
+}
+
+@media(max-width:650px){
+    .occult{
+        display: none;
+    }
+
+    .footer-left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-log{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-networks{
+        margin: 10px 0px 0px 0px;
+    } 
+    
+    .shipping-forms{
+        margin: 0px;
+    }
+}
+

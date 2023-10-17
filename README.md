@@ -80,3 +80,34 @@ display: avisa al padre que tipo es / flex (flexibles, en una dirección), grid 
             - Ordenador portátil medio: 1366 x 768 px.
             - Ordenador de escritorio medio: 1440 x 900 px.
             - PC de escritorio grande: 1920 x 1080 px.
+
+# Clase 12 - SASS
+
+    * Vamos a la carpeta que queremos agregar sass en nuestro proyecto
+    * Hay que empezar por realizar un backup del archivo css, ya que al comenzar a trabajar con sass se borra el archivo style que estábamos trabajando con un nombre distinto al que teníamos
+    * Tenemos que tener carpetas separadas llamadas sass (con un archivo style.scss) y css (con un archivo style.css)
+    * escribimos:
+        - npm init (le damos enter a todo, luego se puede modificar las configuraciones)
+        - npm install -g sass
+        - sass --watch carpeta_sass/archivo.sass carpeta_css/archivo.css (esto genera que las modificaciones que yo haga en sass las pasa al archivo de css, borrando tolo lo que había en el archivo css)
+    
+
+    * Datos: 
+    - En el archivo scss escribimos en forma de cascada encapsulada
+        ej:
+            - header{
+                background-color: blue;
+                p{
+                    background-color: red;
+                    p:hover{
+                        backdground-color: white;
+                    }
+                }
+            }
+    
+    - Se puede separar los archivo del scss, los archivos que no sean el archivo principal, deben comenzar con un "_" en el nombre (ej: _contacto.scss)
+    - En el archivo principal debe tener al final del archivo: '@import "_contacto";'
+    - Se puede generar un archivo "_variables.scss", en el que las variables se declaran con "$"
+        ej:
+            $color-principal: #4d0d05;
+            $tamanio-principal: 20px;
